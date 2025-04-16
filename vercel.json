@@ -1,0 +1,11 @@
+{
+  "builds": [
+    {
+      "src": "main.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "env": {
+    "PLAYWRIGHT_BROWSERS_PATH": "/usr/local/share/.cache/ms-playwright"
+  }
+}
